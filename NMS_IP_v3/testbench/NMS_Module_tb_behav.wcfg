@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="NMS_Module_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="NMS_Module_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="314332fs"></ZoomEndTime>
+      <Cursor1Time time="1038fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="250"></NameColumnWidth>
+      <ValueColumnWidth column_width="128"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject type="group" fp_name="group20">
+      <obj_property name="label">parameters</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/NMS_Module_tb/bbox_data">
+         <obj_property name="ElementShortName">bbox_data[0:9][63:0]</obj_property>
+         <obj_property name="ObjectShortName">bbox_data[0:9][63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/BBOX_DATA_WIDTH">
+         <obj_property name="ElementShortName">BBOX_DATA_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BBOX_DATA_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/BBOX_IND_WIDTH">
+         <obj_property name="ElementShortName">BBOX_IND_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">BBOX_IND_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/REG_DATA_WIDTH">
+         <obj_property name="ElementShortName">REG_DATA_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">REG_DATA_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/REG_ADDR_WIDTH">
+         <obj_property name="ElementShortName">REG_ADDR_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">REG_ADDR_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/IOU_THRESH_WIDTH">
+         <obj_property name="ElementShortName">IOU_THRESH_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IOU_THRESH_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/MEM_ADDR_WIDTH">
+         <obj_property name="ElementShortName">MEM_ADDR_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_ADDR_WIDTH[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="logic" fp_name="/NMS_Module_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/NMS_Module_tb/resetn">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/controller_inst/state">
+      <obj_property name="ElementShortName">state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">state[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/controller_inst/gen_rst">
+      <obj_property name="ElementShortName">gen_rst</obj_property>
+      <obj_property name="ObjectShortName">gen_rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/start_wire">
+      <obj_property name="ElementShortName">start_wire</obj_property>
+      <obj_property name="ObjectShortName">start_wire</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group25">
+      <obj_property name="label">registers</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/NMS_Module_tb/reg_ren">
+         <obj_property name="ElementShortName">reg_ren</obj_property>
+         <obj_property name="ObjectShortName">reg_ren</obj_property>
+         <obj_property name="CustomSignalColor">#D2691E</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/reg_data">
+         <obj_property name="ElementShortName">reg_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_data[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#D2691E</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/reg_addr">
+         <obj_property name="ElementShortName">reg_addr[3:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_addr[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#D2691E</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/num_pred_wire">
+         <obj_property name="ElementShortName">num_pred_wire[13:0]</obj_property>
+         <obj_property name="ObjectShortName">num_pred_wire[13:0]</obj_property>
+         <obj_property name="CustomSignalColor">#D2691E</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/iou_thresh_wire">
+         <obj_property name="ElementShortName">iou_thresh_wire[15:0]</obj_property>
+         <obj_property name="ObjectShortName">iou_thresh_wire[15:0]</obj_property>
+         <obj_property name="CustomSignalColor">#D2691E</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/registers_inst/num_box_reg">
+         <obj_property name="ElementShortName">num_box_reg[9:0]</obj_property>
+         <obj_property name="ObjectShortName">num_box_reg[9:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group111">
+      <obj_property name="label">pred_bbox</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/NMS_Module_tb/pbox_ready">
+         <obj_property name="ElementShortName">pbox_ready</obj_property>
+         <obj_property name="ObjectShortName">pbox_ready</obj_property>
+         <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/pred_bbox_data">
+         <obj_property name="ElementShortName">pred_bbox_data[63:0]</obj_property>
+         <obj_property name="ObjectShortName">pred_bbox_data[63:0]</obj_property>
+         <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/pred_bbox_wire">
+         <obj_property name="ElementShortName">pred_bbox_wire[63:0]</obj_property>
+         <obj_property name="ObjectShortName">pred_bbox_wire[63:0]</obj_property>
+         <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group32">
+      <obj_property name="label">i_counter</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/NMS_Unit_inst/i_counter_en">
+         <obj_property name="ElementShortName">i_counter_en</obj_property>
+         <obj_property name="ObjectShortName">i_counter_en</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/NMS_Unit_inst/i_counter">
+         <obj_property name="ElementShortName">i_counter[13:0]</obj_property>
+         <obj_property name="ObjectShortName">i_counter[13:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group37">
+      <obj_property name="label">bbox_iter</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/NMS_Unit_inst/bbox_iter_rst">
+         <obj_property name="ElementShortName">bbox_iter_rst</obj_property>
+         <obj_property name="ObjectShortName">bbox_iter_rst</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/NMS_Unit_inst/bbox_iter_en">
+         <obj_property name="ElementShortName">bbox_iter_en</obj_property>
+         <obj_property name="ObjectShortName">bbox_iter_en</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/NMS_Unit_inst/bbox_iter">
+         <obj_property name="ElementShortName">bbox_iter[9:0]</obj_property>
+         <obj_property name="ObjectShortName">bbox_iter[9:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/NMS_Unit_inst/bbox_iter_delay">
+         <obj_property name="ElementShortName">bbox_iter_delay[9:0]</obj_property>
+         <obj_property name="ObjectShortName">bbox_iter_delay[9:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group40">
+      <obj_property name="label">bbox_last</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/NMS_Unit_inst/bbox_last_en">
+         <obj_property name="ElementShortName">bbox_last_en</obj_property>
+         <obj_property name="ObjectShortName">bbox_last_en</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/NMS_Unit_inst/bbox_last">
+         <obj_property name="ElementShortName">bbox_last[9:0]</obj_property>
+         <obj_property name="ObjectShortName">bbox_last[9:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group44">
+      <obj_property name="label">delay</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/NMS_Unit_inst/delay_rst">
+         <obj_property name="ElementShortName">delay_rst</obj_property>
+         <obj_property name="ObjectShortName">delay_rst</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/NMS_Unit_inst/delay_en">
+         <obj_property name="ElementShortName">delay_en</obj_property>
+         <obj_property name="ObjectShortName">delay_en</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/NMS_Unit_inst/delay">
+         <obj_property name="ElementShortName">delay[3:0]</obj_property>
+         <obj_property name="ObjectShortName">delay[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/i_lt_num_pred_wire">
+      <obj_property name="ElementShortName">i_lt_num_pred_wire</obj_property>
+      <obj_property name="ObjectShortName">i_lt_num_pred_wire</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/iter_eq_last_wire">
+      <obj_property name="ElementShortName">iter_eq_last_wire</obj_property>
+      <obj_property name="ObjectShortName">iter_eq_last_wire</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/iter_eq_lstMinus1_wire">
+      <obj_property name="ElementShortName">iter_eq_lstMinus1_wire</obj_property>
+      <obj_property name="ObjectShortName">iter_eq_lstMinus1_wire</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group54">
+      <obj_property name="label">bbox_mem read</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/bbox_mem_ren_wire">
+         <obj_property name="ElementShortName">bbox_mem_ren_wire</obj_property>
+         <obj_property name="ObjectShortName">bbox_mem_ren_wire</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/bbox_raddr_wire">
+         <obj_property name="ElementShortName">bbox_raddr_wire[9:0]</obj_property>
+         <obj_property name="ObjectShortName">bbox_raddr_wire[9:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/bbox_index">
+         <obj_property name="ElementShortName">bbox_index[13:0]</obj_property>
+         <obj_property name="ObjectShortName">bbox_index[13:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/bbox">
+         <obj_property name="ElementShortName">bbox[63:0]</obj_property>
+         <obj_property name="ObjectShortName">bbox[63:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group59">
+      <obj_property name="label">bbox_mem write</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/bbox_mem_wren_wire">
+         <obj_property name="ElementShortName">bbox_mem_wren_wire</obj_property>
+         <obj_property name="ObjectShortName">bbox_mem_wren_wire</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/wea_wire">
+         <obj_property name="ElementShortName">wea_wire</obj_property>
+         <obj_property name="ObjectShortName">wea_wire</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/bbox_waddr_wire">
+         <obj_property name="ElementShortName">bbox_waddr_wire[9:0]</obj_property>
+         <obj_property name="ObjectShortName">bbox_waddr_wire[9:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/i_counter_wire">
+         <obj_property name="ElementShortName">i_counter_wire[13:0]</obj_property>
+         <obj_property name="ObjectShortName">i_counter_wire[13:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/pred_bbox_wire">
+         <obj_property name="ElementShortName">pred_bbox_wire[63:0]</obj_property>
+         <obj_property name="ObjectShortName">pred_bbox_wire[63:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group703">
+      <obj_property name="label">mem_registers</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/bbox_mem_inst/mem[0]">
+         <obj_property name="ElementShortName">[0][77:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][77:0]</obj_property>
+         <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/bbox_mem_inst/mem[1]">
+         <obj_property name="ElementShortName">[1][77:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][77:0]</obj_property>
+         <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/bbox_mem_inst/mem[2]">
+         <obj_property name="ElementShortName">[2][77:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][77:0]</obj_property>
+         <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group203">
+      <obj_property name="label">CALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="group" fp_name="group161">
+         <obj_property name="label">p1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/S1_p1">
+            <obj_property name="ElementShortName">S1_p1[15:0]</obj_property>
+            <obj_property name="ObjectShortName">S1_p1[15:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/S2_p1">
+            <obj_property name="ElementShortName">S2_p1[15:0]</obj_property>
+            <obj_property name="ObjectShortName">S2_p1[15:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/max_X_p1">
+            <obj_property name="ElementShortName">max_X_p1[11:0]</obj_property>
+            <obj_property name="ObjectShortName">max_X_p1[11:0]</obj_property>
+            <obj_property name="CustomSignalColor">#008080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/max_Y_p1">
+            <obj_property name="ElementShortName">max_Y_p1[11:0]</obj_property>
+            <obj_property name="ObjectShortName">max_Y_p1[11:0]</obj_property>
+            <obj_property name="CustomSignalColor">#008080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/iou_thresh">
+            <obj_property name="ElementShortName">iou_thresh[15:0]</obj_property>
+            <obj_property name="ObjectShortName">iou_thresh[15:0]</obj_property>
+            <obj_property name="CustomSignalColor">#008000</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group170">
+         <obj_property name="label">p2</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/S1_p2">
+            <obj_property name="ElementShortName">S1_p2[15:0]</obj_property>
+            <obj_property name="ObjectShortName">S1_p2[15:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/S2_p2">
+            <obj_property name="ElementShortName">S2_p2[15:0]</obj_property>
+            <obj_property name="ObjectShortName">S2_p2[15:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/w1xh1">
+            <obj_property name="ElementShortName">w1xh1[11:0]</obj_property>
+            <obj_property name="ObjectShortName">w1xh1[11:0]</obj_property>
+            <obj_property name="CustomSignalColor">#008080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/w2xh2">
+            <obj_property name="ElementShortName">w2xh2[11:0]</obj_property>
+            <obj_property name="ObjectShortName">w2xh2[11:0]</obj_property>
+            <obj_property name="CustomSignalColor">#008080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/x1xw1">
+            <obj_property name="ElementShortName">x1xw1[11:0]</obj_property>
+            <obj_property name="ObjectShortName">x1xw1[11:0]</obj_property>
+            <obj_property name="CustomSignalColor">#008080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/x2xw2">
+            <obj_property name="ElementShortName">x2xw2[11:0]</obj_property>
+            <obj_property name="ObjectShortName">x2xw2[11:0]</obj_property>
+            <obj_property name="CustomSignalColor">#008080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/y1xh1">
+            <obj_property name="ElementShortName">y1xh1[11:0]</obj_property>
+            <obj_property name="ObjectShortName">y1xh1[11:0]</obj_property>
+            <obj_property name="CustomSignalColor">#008080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/y2xh2">
+            <obj_property name="ElementShortName">y2xh2[11:0]</obj_property>
+            <obj_property name="ObjectShortName">y2xh2[11:0]</obj_property>
+            <obj_property name="CustomSignalColor">#008080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/max_X_p2">
+            <obj_property name="ElementShortName">max_X_p2[11:0]</obj_property>
+            <obj_property name="ObjectShortName">max_X_p2[11:0]</obj_property>
+            <obj_property name="CustomSignalColor">#008080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/max_Y_p2">
+            <obj_property name="ElementShortName">max_Y_p2[11:0]</obj_property>
+            <obj_property name="ObjectShortName">max_Y_p2[11:0]</obj_property>
+            <obj_property name="CustomSignalColor">#008080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group182">
+         <obj_property name="label">p3</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/S1_p3">
+            <obj_property name="ElementShortName">S1_p3[15:0]</obj_property>
+            <obj_property name="ObjectShortName">S1_p3[15:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/S2_p3">
+            <obj_property name="ElementShortName">S2_p3[15:0]</obj_property>
+            <obj_property name="ObjectShortName">S2_p3[15:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/min_XW">
+            <obj_property name="ElementShortName">min_XW[11:0]</obj_property>
+            <obj_property name="ObjectShortName">min_XW[11:0]</obj_property>
+            <obj_property name="CustomSignalColor">#008080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/min_YH">
+            <obj_property name="ElementShortName">min_YH[11:0]</obj_property>
+            <obj_property name="ObjectShortName">min_YH[11:0]</obj_property>
+            <obj_property name="CustomSignalColor">#008080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/max_X">
+            <obj_property name="ElementShortName">max_X[11:0]</obj_property>
+            <obj_property name="ObjectShortName">max_X[11:0]</obj_property>
+            <obj_property name="CustomSignalColor">#008080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/max_Y">
+            <obj_property name="ElementShortName">max_Y[11:0]</obj_property>
+            <obj_property name="ObjectShortName">max_Y[11:0]</obj_property>
+            <obj_property name="CustomSignalColor">#008080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/max_Area">
+            <obj_property name="ElementShortName">max_Area[15:0]</obj_property>
+            <obj_property name="ObjectShortName">max_Area[15:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group191">
+         <obj_property name="label">p4</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/S1_p4">
+            <obj_property name="ElementShortName">S1_p4[15:0]</obj_property>
+            <obj_property name="ObjectShortName">S1_p4[15:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/S2_p4">
+            <obj_property name="ElementShortName">S2_p4[15:0]</obj_property>
+            <obj_property name="ObjectShortName">S2_p4[15:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/MinXW_gt_MaxX">
+            <obj_property name="ElementShortName">MinXW_gt_MaxX</obj_property>
+            <obj_property name="ObjectShortName">MinXW_gt_MaxX</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/MinYH_gt_MaxY">
+            <obj_property name="ElementShortName">MinYH_gt_MaxY</obj_property>
+            <obj_property name="ObjectShortName">MinYH_gt_MaxY</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group185">
+         <obj_property name="label">p5</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/S1_p5">
+            <obj_property name="ElementShortName">S1_p5[15:0]</obj_property>
+            <obj_property name="ObjectShortName">S1_p5[15:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/S2_p5">
+            <obj_property name="ElementShortName">S2_p5[15:0]</obj_property>
+            <obj_property name="ObjectShortName">S2_p5[15:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/intersect_width_wire">
+            <obj_property name="ElementShortName">intersect_width_wire[11:0]</obj_property>
+            <obj_property name="ObjectShortName">intersect_width_wire[11:0]</obj_property>
+            <obj_property name="CustomSignalColor">#008080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/intersect_height_wire">
+            <obj_property name="ElementShortName">intersect_height_wire[11:0]</obj_property>
+            <obj_property name="ObjectShortName">intersect_height_wire[11:0]</obj_property>
+            <obj_property name="CustomSignalColor">#008080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/MinXW_gt_MaxX_p5">
+            <obj_property name="ElementShortName">MinXW_gt_MaxX_p5</obj_property>
+            <obj_property name="ObjectShortName">MinXW_gt_MaxX_p5</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/MinYH_gt_MaxY_p5">
+            <obj_property name="ElementShortName">MinYH_gt_MaxY_p5</obj_property>
+            <obj_property name="ObjectShortName">MinYH_gt_MaxY_p5</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group196">
+         <obj_property name="label">p6</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/S1_p6">
+            <obj_property name="ElementShortName">S1_p6[15:0]</obj_property>
+            <obj_property name="ObjectShortName">S1_p6[15:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/S2_p6">
+            <obj_property name="ElementShortName">S2_p6[15:0]</obj_property>
+            <obj_property name="ObjectShortName">S2_p6[15:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/MinXW_gt_MaxX_p6">
+            <obj_property name="ElementShortName">MinXW_gt_MaxX_p6</obj_property>
+            <obj_property name="ObjectShortName">MinXW_gt_MaxX_p6</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/MinYH_gt_MaxY_p6">
+            <obj_property name="ElementShortName">MinYH_gt_MaxY_p6</obj_property>
+            <obj_property name="ObjectShortName">MinYH_gt_MaxY_p6</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group188">
+         <obj_property name="label">p7</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/S1_p7">
+            <obj_property name="ElementShortName">S1_p7[15:0]</obj_property>
+            <obj_property name="ObjectShortName">S1_p7[15:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/S2_p7">
+            <obj_property name="ElementShortName">S2_p7[15:0]</obj_property>
+            <obj_property name="ObjectShortName">S2_p7[15:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/area_x_iou_wire">
+            <obj_property name="ElementShortName">area_x_iou_wire[15:0]</obj_property>
+            <obj_property name="ObjectShortName">area_x_iou_wire[15:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/intersect_wire">
+            <obj_property name="ElementShortName">intersect_wire[11:0]</obj_property>
+            <obj_property name="ObjectShortName">intersect_wire[11:0]</obj_property>
+            <obj_property name="CustomSignalColor">#008080</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/MinXW_gt_MaxX_p7">
+            <obj_property name="ElementShortName">MinXW_gt_MaxX_p7</obj_property>
+            <obj_property name="ObjectShortName">MinXW_gt_MaxX_p7</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/MinYH_gt_MaxY_p7">
+            <obj_property name="ElementShortName">MinYH_gt_MaxY_p7</obj_property>
+            <obj_property name="ObjectShortName">MinYH_gt_MaxY_p7</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group201">
+         <obj_property name="label">p8</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/pred_S_gt">
+            <obj_property name="ElementShortName">pred_S_gt</obj_property>
+            <obj_property name="ObjectShortName">pred_S_gt</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/iou_wire">
+            <obj_property name="ElementShortName">iou_wire[7:0]</obj_property>
+            <obj_property name="ObjectShortName">iou_wire[7:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/overlap">
+            <obj_property name="ElementShortName">overlap</obj_property>
+            <obj_property name="ObjectShortName">overlap</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="logic" fp_name="/NMS_Module_tb/NMS_Module_DUT/CALU_inst/pred_S_gt_delay">
+         <obj_property name="ElementShortName">pred_S_gt_delay</obj_property>
+         <obj_property name="ObjectShortName">pred_S_gt_delay</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group29">
+      <obj_property name="label">AXI stream</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/NMS_Module_tb/tvalid">
+         <obj_property name="ElementShortName">tvalid</obj_property>
+         <obj_property name="ObjectShortName">tvalid</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/NMS_Module_tb/tready">
+         <obj_property name="ElementShortName">tready</obj_property>
+         <obj_property name="ObjectShortName">tready</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/NMS_Module_tb/tlast">
+         <obj_property name="ElementShortName">tlast</obj_property>
+         <obj_property name="ObjectShortName">tlast</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/NMS_Module_tb/bbox_index">
+         <obj_property name="ElementShortName">bbox_index[13:0]</obj_property>
+         <obj_property name="ObjectShortName">bbox_index[13:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="logic" fp_name="/NMS_Module_tb/done_int">
+      <obj_property name="ElementShortName">done_int</obj_property>
+      <obj_property name="ObjectShortName">done_int</obj_property>
+   </wvobject>
+</wave_config>

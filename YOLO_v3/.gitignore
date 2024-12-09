@@ -1,0 +1,13 @@
+#folders
+__pycache__/
+videos/*
+alter_imgs/
+
+#files
+yolov3.weights
+det/*
+hw_det/*
+bbox/*
+nms/*
+!nms/log_result.txt
+
